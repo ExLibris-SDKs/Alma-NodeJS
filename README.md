@@ -23,19 +23,19 @@ Calls `GET /users/<userID>`, returns a promise which resolves with a new User in
 Returns a new instance of the User class.
 
 `user.loans()`
-Calls `GET /users/<userID>/loans`, returns a promise which resolves with an array of Loan instances.
+Calls `GET /users/<userID>/loans`, returns a promise which resolves with a map of Loan instances.
 
 `user.getLoan(loanID)`
 Calls `GET /users/<userID>/loans/<loanID>`, returns a promise which a Loan instance created from the API data.
 
 `user.requests()`
-Calls `GET /users/<userID>/requests`, returns a promise which resolves with an array of Request instances.
+Calls `GET /users/<userID>/requests`, returns a promise which resolves with a map of Request instances.
 
 `user.getRequest(requestID)`
 Calls `GET /users/<userID>/requests/<requestID>`, returns a promise which a Request instance created from the API data.
 
 `user.fees()`
-Calls `GET /users/<userID>/fees`, returns a promise which resolves with an array of Fee instances.
+Calls `GET /users/<userID>/fees`, returns a promise which resolves with a map of Fee instances.
 
 `user.getFee(feeID)`
 Calls `GET /users/<userID>/fees/<feeID>`, returns a promise which a Fee instance created from the API data.
